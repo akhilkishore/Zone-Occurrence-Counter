@@ -35,3 +35,6 @@ flask run --reload --port 5000
 ```
 
 Head to http://127.0.0.1:5000/
+Note:
+- [API documentation](https://github.com/akhilkishore/Zone-Occurrence-Counter/wiki/API-Doc#zone-counts-api)https://github.com/akhilkishore/Zone-Occurrence-Counter/wiki/API-Doc#zone-counts-api
+- PFA sample postman_collection.json
