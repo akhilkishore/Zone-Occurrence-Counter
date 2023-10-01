@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "5ec72659-a98e-4033-901e-f9a05f179d39",
+		"name": "Inventory Zones",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000/count-zone-occurrence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "csv_file",
+							"description": "file",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/count-zone-occurrence",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"count-zone-occurrence"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
